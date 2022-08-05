@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking</title>
+    <style>
+         p {
+            color: red;
+            font-size: 50px;
+            font-weight: bold;
+            transform: translate(-50%, -50%);
+            text-align: right;
+            animation: animate 
+                1.5s linear infinite;
+        }
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+  
+            50% {
+                opacity: 0.9;
+            }
+  
+            100% {
+                opacity: 0;
+            }
+        }
+        .container{
+                    float:left;
+                    width: 30%;
+                    padding: 4px;
+        }
+        /* .clear::after{
+                    clear: both;
+                    display: table;
+        } */
+    </style>
+</head>
+
+<body>
+    <p><blink>This is blinking</blink></p>
+    <div class="clear">
+        <div class="container">
+            <img src="/Task_2/nature1.jpg" alt="nature1" width="100%">
+        </div>
+        <div class="container">
+            <img src="/Task_2/nature2.jpg" alt="nature2"width="100%">
+        </div>
+        <div class="container">
+            <img src="/Task_2/nature3.jpg" alt="nature3"width="100%" >
+        </div>
+    </div>
+    
+</body>
+
+</html>

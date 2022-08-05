@@ -1,0 +1,7 @@
+1) on submit neeed add item in list 
+    a) create global array to store object (dataArray)=>Done        
+    b1) on click of button add object in dataArray=>Done
+    b2) create sub object data={text:"",isCompleted:false} and push it in dataArray.=>Done
+    c) create function to render dataArray and create LI to show data
+
+2) on checkbox click need to complete todo and re rendor the UI. step c.=>Done

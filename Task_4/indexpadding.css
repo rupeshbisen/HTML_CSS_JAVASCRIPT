@@ -1,0 +1,27 @@
+.div-1{
+    background-color: red;
+    width: 80%;
+    height: 500px;
+    margin-left: 100px;
+    padding-top:230px ;
+
+}
+.div-2{
+   background-color: antiquewhite;
+    width: 15%;
+    margin-left: 500px;
+}
+.div-3{
+    background-color: aqua;
+    width: 13%;
+    margin-left: 500px;
+    
+}
+.div-4{
+    background-color: aqua;
+    width: 13%;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 550px;
+}
+    

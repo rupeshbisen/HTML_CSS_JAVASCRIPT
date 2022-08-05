@@ -1,0 +1,59 @@
+.cardDesing {
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 360px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hederFM {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: -webkit-body;
+}
+
+.todoForm {
+    width: 85%;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.todobtn {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
+.checkboxStyle{
+    height: 15px;
+    width: 15px;
+    float: right;
+    margin-right:50px;
+  }
+  

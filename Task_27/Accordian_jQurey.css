@@ -1,0 +1,17 @@
+.accordion{
+    width: 50%;
+    margin-left:50px;
+    margin-top: 50px;
+}
+h3{
+    background-color: burlywood;
+    padding: 10px;
+    cursor: pointer;
+  
+}
+.active, h3:hover {
+    background-color: rgb(157, 209, 233);
+}
+.btnPlus{
+    float: right;
+}

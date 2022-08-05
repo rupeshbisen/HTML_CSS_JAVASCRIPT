@@ -1,0 +1,25 @@
+.cardDesing {
+    width: 50%;
+    margin-left: 360px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hederFM {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    background-color: darkseagreen;
+}
+.jQureyform{
+    width: 70%;
+    margin-left: 99px;
+    margin-top: 25px;
+}
+.todobtn{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+

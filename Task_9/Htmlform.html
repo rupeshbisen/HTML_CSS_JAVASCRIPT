@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h3>My First Form</h3>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <fieldset>
+            <legend>Personalia:</legend><br>
+            <div class="name">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" value="first name"><br><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" value="last name"><br><br>
+                <label>Mobile NO.</label>
+                <input type="tel" id="mobile" name="mobile" maxlength="10">
+            </div><br>
+            <div class="gender">
+                <label>Gender</label><br>
+                <input type="radio" id="gender" name="gender">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="other">Other</label><br><br>
+                <label>Date of brith</label>
+                <input type="date" name="date of brih" id="date of brih"><br><br>
+                <label>Brithday (date and time) </label>
+                <input type="datetime-local" id="Brithday" name="Brithday">
+            </div><br>
+            <div class="marrital">
+                <label>Marrital Status</label><br>
+                <input type="radio" name="marrital status" id="marrital status">
+                <label for="marrital status">Married</label>
+                <input type="radio" name="marrital status" id="marrital status">
+                <label for="marrital status">Unmarried</label>
+            </div><br>
+            <div class="language">
+                <label>Which Language You Have Preferred</label><br>
+                <input type="checkbox" name="know language" id="know language">
+                <label for="know language">English</label>
+                <input type="checkbox" name="know language" id="know language">
+                <label for="know language">Hindi</label>
+            </div><br>
+            <div class="cars">
+                <label>Choose a Car</label>
+                <select id="cars" name="cars" size="4" multiple>
+                    <option value="audi">Audi</option>
+                    <option value="ford">Ford</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="indica">Indica</option>
+                </select>
+            </div><br>
+            <div>
+                <label>Browsers choice</label>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </div><br><br>
+            <div>
+                <label>Write on village</label>
+                <textarea name="message" rows="5" cols="10">The village</textarea>
+            </div><br><br>
+            <div>
+                0
+                <input type="range" id="a" name="a" value="50">
+                100 +
+                <input type="number" id="b" name="b" value="50">
+                =
+                <output name="x" for="a b"></output>
+            </div>
+            <div>
+                <label for="username">Username</label><br>
+                <input type="text" name="username" id="username"><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <p>The input <strong> type="color"</strong> is used for input fields that should contain a color.</p>
+                <label>Select your favorite color:</label>
+                <input type="color" name="favcolor" id="favcolor" value="#ffffff ">
+            </div><br>
+            <div>
+                <label>My file</label>
+                <input type="file" id="my file" name="my file">
+            </div><br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset all">
+            </div><br>
+            <div>
+                <button type="button" onclick="alert ('Your response has been recorded')">click me</button>
+            </div>
+        </fieldset>
+
+    </form>
+
+</html>
